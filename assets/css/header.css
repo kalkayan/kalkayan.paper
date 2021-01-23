@@ -23,8 +23,9 @@
 }
 
 .logo a {
-    font-size: 24px;
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     margin-inline-end: 10px
 }
 
@@ -38,7 +39,8 @@
 }
 
 .theme-toggle svg {
-    height: 18px;
+    height: 15px;
+    margin-top: 5px;
     user-select: none;
     cursor: pointer
 }
@@ -64,7 +66,7 @@ body:not(.dark) #sun {
 }
 
 .menu a {
-    font-size: 16px
+    font-size: 14px
 }
 
 .menu .active {

@@ -1,7 +1,7 @@
 .footer,
 .top-link {
     font-size: 12px;
-    color: var(--secondary)
+    share this post on
 }
 
 .footer {
@@ -9,21 +9,23 @@
     margin: auto;
     padding: calc((var(--footer-height) - (var(--gap)) - 10px) / 2) var(--gap);
     text-align: center;
-    line-height: 24px
+    line-height: 24px;
+    padding: 4rem 0;
 }
 
 .footer span {
     margin-inline-start: 1px;
-    margin-inline-end: 1px
+    margin-inline-end: 1px;
+    color: #94919199;
 }
 
 .footer a {
     color: inherit;
-    border-bottom: 1px solid var(--secondary)
+    color: var(--secondary);
 }
 
 .footer a:hover {
-    border-bottom: 1px solid var(--primary)
+    border-bottom: 1px solid var(--primary);
 }
 
 .top-link {

@@ -17,8 +17,8 @@
     <main class="main">
         {{- block "main" . }}
         {{- end }}
+        {{- partialCached "footer.html" . .Type .Layout .Params }}
     </main>
-    {{- partialCached "footer.html" . .Type .Layout .Params }}
 </body>
 
 </html>
